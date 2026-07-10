@@ -171,6 +171,9 @@ $RECYCLE.BIN/
 *.md
 !Statistic Intro.md
 
+# Media
+media/
+
 # Project-specific: Markdown lecture notes (tracked, so no gitignore needed)
 # This directory currently contains .md statistics lecture notes.
 # Add below any future project-specific patterns.

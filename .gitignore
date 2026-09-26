@@ -169,7 +169,7 @@ $RECYCLE.BIN/
 
 # Markdown files
 *.md
-!Statistic Intro.md
+!Linear Algebra.md
 
 # Media
 media/

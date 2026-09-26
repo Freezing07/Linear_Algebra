@@ -8,6 +8,7 @@
 - 🧪 **实操**：55 个 Jupyter Notebook，全部**已带运行输出**，在 GitHub 上可直接预览
 - 🗺️ **插图**：`.pictures/` 中的几何示意图，以及 SVD 图像压缩实验用的真实图片
 - 🐍 **环境**：`requirements.txt` 固定了可直接复现的解释器依赖
+- ⚖️ **许可证**：[MIT](./LICENSE)
 
 ---
 
@@ -63,6 +64,7 @@ Linear_Algebra/
 ├── Chap9-6.ipynb              # 第 9 章习题集
 ├── .pictures/                 # 正文插图 + SVD 图像压缩实验用图（gargantua-*.jpg）
 ├── requirements.txt           # 完整环境依赖（numpy / scipy / pandas / matplotlib / scikit-learn / manim ...）
+├── LICENSE                    # MIT
 └── .gitignore
 ```
 
@@ -187,7 +189,7 @@ jupyter lab
 - 勘误与补充可直接提 Pull Request。新内容的风格请与现有章节保持一致：**先直觉、后定义、紧跟可运行代码与预期反馈**。
 - 提交 Notebook 前请执行 `Kernel → Restart & Run All`，并保留单元格输出。
 
-> 本仓库目前尚未声明开源许可证；在补充 License 之前，请勿直接用于商业再发布，引用与学习不受限制。
+> 本项目采用 [MIT 许可证](./LICENSE) 开源，可自由使用、修改、分发，包括商业用途；转载与二次创作时保留原始版权声明即可。欢迎随意 fork、引用与用于教学。
 
 ---
 

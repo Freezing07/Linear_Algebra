@@ -59,18 +59,19 @@
 ```
 Linear_Algebra/
 ├── Linear Algebra.md          # 全书正文（含第 0 章卷首语、第 1~9 章、第 10 章附录速查卡）
-├── Chap1-1.ipynb              # 第 1 章配套实操 Notebook
-│   ...
-├── Chap9-6.ipynb              # 第 9 章习题集
+├── homeworks/                 # 全部 55 个配套 Jupyter Notebook
+│   ├── Chap1-1.ipynb          # 第 1 章配套实操 Notebook
+│   ├── ...
+│   └── Chap9-6.ipynb          # 第 9 章习题集
 ├── .pictures/                 # 正文插图 + SVD 图像压缩实验用图（gargantua-*.jpg）
 ├── requirements.txt           # 完整环境依赖（numpy / scipy / pandas / matplotlib / scikit-learn / manim ...）
 ├── LICENSE                    # MIT
 └── .gitignore
 ```
 
-- **`ChapX-Y.ipynb`** 是第 X 章的配套实操，按正文行文顺序排列；**每一章最后一本笔记本是该章习题集**（开头为题目描述，随后是可以直接跑的解答）。
+- **`homeworks/ChapX-Y.ipynb`** 是第 X 章的配套实操，按正文行文顺序排列；**每一章最后一本笔记本是该章习题集**（开头为题目描述，随后是可以直接跑的解答）。
 - 所有 Notebook 均**已保存执行输出**（含图表），在 GitHub 页面或 [nbviewer](https://nbviewer.org/) 上无需运行即可阅读。
-- `Chap1-3.ipynb` 额外包含用 **Manim** 制作"矩阵乘法四种解读"动画的单元（`%%manim` magic）。
+- `homeworks/Chap1-3.ipynb` 额外包含用 **Manim** 制作"矩阵乘法四种解读"动画的单元（`%%manim` magic）。
 
 ---
 
@@ -121,7 +122,7 @@ jupyter lab
 > 💡 **国内网络提示**：部分包（如 `manim`、`scikit-image`）体积较大，若下载缓慢可临时换源：
 > `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
-> ⚠️ Manim 动画单元（仅 `Chap1-3.ipynb`）需要系统安装 FFmpeg 与 Pango/Cairo；只想读代码的话可以跳过它，其余 54 个 Notebook 只需要 NumPy/SciPy/Matplotlib 系依赖。
+> ⚠️ Manim 动画单元（仅 `homeworks/Chap1-3.ipynb`）需要系统安装 FFmpeg 与 Pango/Cairo；只想读代码的话可以跳过它，其余 54 个 Notebook 只需要 NumPy/SciPy/Matplotlib 系依赖。
 
 ---
 
